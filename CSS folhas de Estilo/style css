@@ -93,3 +93,43 @@ iframe, video {
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+
+/**********Estilo Base*********/
+ body{
+  font-size: 16px;
+  font-family: Outfit, sans-serif;
+;
+  background-color: var(--body-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Outfit, sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+small {
+  font-size: 0.8rem;
+}
+
+strong {
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+  /* Color highlighting when pressed on mobile devices */
+  /-webkit-tap-highlight-color: transparent;/
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a:hover, a:active, a.active {
+  color: var(--primary-color);  
+}
+
