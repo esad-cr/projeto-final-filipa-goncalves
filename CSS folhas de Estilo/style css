@@ -71,7 +71,8 @@ iframe, video {
 --title-color: #000000;     
 --text-color: #000000;
 /* Azul do botão "Ver Projeto" */
---primary-color: #2883CE;  
+--primary-color: #2883CE; 
+--secondary-color: #555555; 
 --white-color: #ffffff;
 
 /*====Font typography ====*/
@@ -97,13 +98,13 @@ iframe, video {
 /**********Estilo Base*********/
  body{
   font-size: 16px;
-  font-family: Outfit, sans-serif;
+  font-family: Roboto, sans-serif;
 ;
   background-color: var(--body-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Outfit, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 p {
@@ -121,7 +122,7 @@ strong {
 ul {
   list-style: none;
   /* Color highlighting when pressed on mobile devices */
-  /-webkit-tap-highlight-color: transparent;/
+  /*-webkit-tap-highlight-color: transparent;*/
 }
 
 a {
