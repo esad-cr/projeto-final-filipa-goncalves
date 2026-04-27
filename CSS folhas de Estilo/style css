@@ -63,4 +63,15 @@ iframe, video {
 ----Variavéis CSS----
 :root {
   --header-height: 3.5rem;
-  
+
+
+/====Colors====/
+/* Cor de fundo do guia */
+--body-color: #F8F9FA; 
+ /* Cor da tipografia */   
+--title-color: #000000;     
+--text-color: #000000;
+/* Azul do botão "Ver Projeto" */
+--primary-color: #2883CE;  
+--white-color: #ffffff;
+
