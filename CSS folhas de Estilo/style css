@@ -64,7 +64,6 @@ iframe, video {
 :root {
   --header-height: 3.5rem;
 
-
 /====Colors====/
 /* Cor de fundo do guia */
 --body-color: #F8F9FA; 
@@ -75,3 +74,22 @@ iframe, video {
 --primary-color: #2883CE;  
 --white-color: #ffffff;
 
+/*====Font typography ====*/
+/*.5rem = 8px | 1rem = 16px ...*/
+/*--body-font: "Roboto", sans-serif;*/
+--normal-font-size: 1rem; 
+/* 32px (Títulos principais) */
+--h1-font-size: 2rem; 
+/* 24px (Secções) */
+--h2-font-size: 1.5rem;
+/* 16px (Body/Texto) */   
+--normal-font-size: 1rem;  
+  
+/*========== Font weight ==========*/
+  --font-regular: 400;
+  --font-semi-bold: 600;
+
+/*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
