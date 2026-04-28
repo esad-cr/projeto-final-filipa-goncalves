@@ -134,3 +134,11 @@ a:hover, a:active, a.active {
   color: var(--primary-color);  
 }
 
+/*Largura dos elementos que compoem o body*/
+/* utilizando classes */
+.pageWidth {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
