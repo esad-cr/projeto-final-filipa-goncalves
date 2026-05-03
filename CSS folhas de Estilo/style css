@@ -225,3 +225,14 @@ h3{
   align-items: center;
   column-gap: .25rem;
 }
+
+#headerLogo a {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: var(--title-color); 
+}
+
+#headerLogo img {
+  width: 3rem;
+}
