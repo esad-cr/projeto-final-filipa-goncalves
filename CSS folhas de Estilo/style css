@@ -219,3 +219,9 @@ h3{
   justify-content: space-between;
   align-items: center;
 }
+
+#headerLogo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+}
