@@ -217,7 +217,7 @@ h3{
   color: #000000;
 }
 
-.navAction {
+.nav__Action {
   height: 100%;
   display: flex;
   justify-content: space-between;
