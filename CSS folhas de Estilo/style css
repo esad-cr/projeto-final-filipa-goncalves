@@ -268,9 +268,9 @@ h3{
   .nav__menu {
     position: absolute;
     left: 0;
-    top: var(--header-height); /* Usamos a tua variável em vez de 3.5rem fixo */
+    top: 3.5rem;
     width: 100%;
-    height: calc(100vh - var(--header-height));
+    height: calc(100vh - 3.5rem);
     overflow: auto;
     pointer-events: none;
     opacity: 0;
@@ -285,6 +285,5 @@ h3{
     background-color: var(--white-color);
     padding-top: 1rem;
     display: flex;
-    flex-direction: column; /* Coloca os links um por baixo do outro no telemóvel */
   }
 }
