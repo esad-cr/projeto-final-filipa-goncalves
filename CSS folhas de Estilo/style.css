@@ -364,7 +364,7 @@ h3{
   margin-top:var(--header-height)!important;
 }
 
-@media screen and (mim_wudth: 992px) {
+@media screen and (mim_width: 992px) {
   #mainContent {
     margin-top:calc(var(--header-height)+2rem)
   }
