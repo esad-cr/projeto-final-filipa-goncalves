@@ -369,3 +369,27 @@ h3{
     margin-top:calc(var(--header-height)+2rem)
   }
 }
+
+/*----Hero Section 1 ----*/
+.banner-container {
+  display:flex;
+  justify-content: space-between;
+}
+.left-hero {
+  width: 60%;
+  z-index: var(--z-tooltip);
+}
+.right-hero {
+  width: 40%;
+  z-index: relative; 
+}
+/*Navigation for mobile/tablet devices*/
+@media screen and(max-width:992px) {
+  .left-hero{
+    width: 100%; 
+  }
+
+  .right-hero{
+    display: none; 
+  }
+}
