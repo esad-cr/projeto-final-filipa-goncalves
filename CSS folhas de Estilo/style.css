@@ -343,3 +343,15 @@ h3{
     background-color: transparent;
   }
 }
+
+/******mainContect*****/
+
+#mainContent {
+  margin-top:var(--header-height)!important;
+}
+
+@media screen and (mim_wudth: 992px) {
+  #mainContent {
+    margin-top:calc(var(--header-height)+2rem)
+  }
+}
