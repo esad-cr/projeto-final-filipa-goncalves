@@ -393,3 +393,41 @@ h3{
     display: none; 
   }
 }
+
+h1.heading-text {
+  color: var(--primary-color);
+  margin:5rem 5.5rem 2rem 0;
+}
+
+h1.heading-text span {
+  color:var(--primary-color)
+}
+
+p.description {
+  color:var(--primary-color);
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  border: none;
+  color:var(--primary-color);
+  background-color: var(--primary-color);
+  padding: 1.25rem 2.5rem;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.banner-container:last-child {
+  margin-top: 5rem;
+}
+
+.banner-container div img {
+  max-width: 55vw;
+  position:absolute;
+  right: -16px;
+}
