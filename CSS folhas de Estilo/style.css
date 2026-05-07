@@ -222,8 +222,7 @@ h3{
   padding: 0 16px;
 }
 
-.nav__burger, 
-.nav__close {
+.nav__burger, .nav__close {
   color: #000000;
 }
 
@@ -263,7 +262,7 @@ h3{
   height: max-content;
   inset: 0;
   margin: auto;
-  font-size: 2rem;
+  font-size: 1.25rem;
   cursor: pointer;
   transition: opacity .1s, transform .4s;
 }
@@ -281,9 +280,9 @@ h3{
     width: 100%;
     height: calc(100vh - 3.5rem);
     overflow: auto;
-    /*pointer-events: none;
-    opacity: 0;*/
-    transition: top .4s, opacity .3s;
+    pointer-events: none;
+    opacity: 0;
+    transition: height .4s, opacity .3s;
   }
 
   .nav__menu::-webkit-scrollbar {
@@ -313,7 +312,7 @@ h3{
   /*Show menu */
   .show-menu {
     opacity: 1;
-    top: 3rem;
+    top: 1.5rem;
     pointer-events: initial;
   }
 
@@ -430,4 +429,10 @@ p.description {
   max-width: 55vw;
   position:absolute;
   right: -16px;
+}
+
+/******* mainFooter *******/
+#mainFooter {
+  padding: 20px;
+  text-align: center;
 }
