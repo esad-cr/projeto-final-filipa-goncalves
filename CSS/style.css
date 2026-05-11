@@ -346,3 +346,122 @@ h3{
     background-color: transparent;
   }
 }
+
+/******mainContent*****/
+
+#mainContent {
+  margin-top:var(--header-height)!important;
+}
+
+@media screen and (mim_width: 992px) {
+  #mainContent {
+    margin-top:calc(var(--header-height)+2rem)
+  }
+}
+
+/*----Hero Section 1 ----*/
+.banner-container {
+  display:flex;
+  justify-content: space-between;
+}
+.left-hero {
+  width: 60%;
+  z-index: var(--z-tooltip);
+}
+.right-hero {
+  width: 40%;
+  z-index: relative; 
+}
+/*Navigation for mobile/tablet devices*/
+@media screen and(max-width:992px) {
+  .left-hero{
+    width: 100%; 
+  }
+
+  .right-hero{
+    display: none; 
+  }
+}
+
+h1.heading-text {
+  color: var(--primary-color);
+  margin:5rem 5.5rem 2rem 0;
+}
+
+h1.heading-text span {
+  color:var(--primary-color)
+}
+
+p.description {
+  color:var(--primary-color);
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  border: none;
+  color:var(--primary-color);
+  background-color: var(--primary-color);
+  padding: 1.25rem 2.5rem;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.banner-container:last-child {
+  margin-top: 5rem;
+}
+
+.banner-container div img {
+  max-width: 55vw;
+  position:absolute;
+  right: -16px;
+}
+
+/*----Hero Section 2 ----*/
+.hero {
+  height: 90vh;
+  background-image: url('../Imagens/readme/11.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1.hero-heading {
+  width: 70%;
+  text-align: center;
+  line-height: 100px;
+  margin-top: 150px;
+  color: var(--black-color);
+}
+
+.hero-description {
+  margin-top: 40px;
+  color: var(--white-color);
+}
+
+.button-large {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.button-large:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+/******* mainFooter *******/
+#mainFooter {
+  padding: 20px;
+  text-align: center;
+}
