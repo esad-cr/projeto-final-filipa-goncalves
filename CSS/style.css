@@ -361,3 +361,75 @@ h3{
     background-color: transparent;
   }
 }
+
+/************** cards **************/
+/*---- Definir o flex/autolayout ----*/
+.container {
+  --gap:0;
+  padding: 2rem;
+
+}
+.flex {
+ display: flex;
+ gap: var(--gap, 1rem);
+}
+
+.flex_column {
+  flex-direction: column; 
+  margin-left: auto;
+}
+
+.box_shadow {
+  box-shadow: 3px 3px 15px 2px rgba(0,0,0,52)
+}
+.border_radius {
+  border-radius: column; 
+  margin-left: auto;
+}
+
+/*----Definir as background-colors ----*/
+.bg-primary-color {
+  background-color: var(--primary-color);
+}
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+.bg-third-color {
+  background-color: var(--third-color);
+}
+
+/*----articles - estilo de card ----*/
+.container article:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.container article:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.container article {
+  --gap: 2rem; 
+  line-height: 1.5;
+  padding: 3rem; 
+}
+.container article > img {
+  width:4rem; 
+}
+
+/*----botões----*/
+.learn-more-button {
+  border: none;
+  border-radius: 40px;
+  letter-spacing: 1px;
+  padding-block: 0.79em;
+  padding-inline: 2.3em;
+  margin: auto;
+  margin-top: 3em;
+  transition: background-color 200ms ease-in-out;
+}
+
+.learn-more-button:hover {
+  background-color: inherit;
+  outline: 2px solid var(--white-color);
+  color: var(--white-color);
+}
