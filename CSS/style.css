@@ -194,7 +194,7 @@ h3{
   text-align: center;
 }
 .white_text {
-  color: var(--white-color);
+  color: var(--third-color);
 }
 
 .invert_filter {
