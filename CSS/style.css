@@ -73,7 +73,8 @@ iframe, video {
 /* Azul do botão "Ver Projeto" */
 --black-color: #000000;
 --primary-color: #2883CE; 
---secondary-color: #555555; 
+--secondary-color: #a7f9e7;
+--third-color: #30f4ca;
 --white-color: #ffffff;
 
 /*====Font typography ====*/
@@ -186,6 +187,20 @@ h3{
   font-size: 3.998rem;
   }
 }
+
+
+/****utilidades****/
+.text_center {
+  text-align: center;
+}
+.white_text {
+  color: var(--white-color);
+}
+
+.invert_filter {
+  filter: invert(1);
+}
+
 /****Definição do MainMenu****/
 
 /*======HEADER======*/
