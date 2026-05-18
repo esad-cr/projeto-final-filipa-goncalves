@@ -288,7 +288,7 @@ h3{
     overflow: auto;
     pointer-events: none;
     opacity: 0;
-    transition: top .4s, opacity .3s;
+    transition: height .4s, opacity .3s;
   }
 
   .nav__menu::-webkit-scrollbar {
