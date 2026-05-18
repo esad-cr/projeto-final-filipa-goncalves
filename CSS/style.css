@@ -74,7 +74,7 @@ iframe, video {
 --black-color: #000000;
 --primary-color: #2883CE; 
 --secondary-color: #a7f9e7;
---third-color: #30f4ca;
+--third-color: #7ab8cd;
 --white-color: #ffffff;
 
 /*====Font typography ====*/
@@ -374,17 +374,16 @@ h3{
  gap: var(--gap, 1rem);
 }
 
-.flex_column {
-  flex-direction: column; 
-  margin-left: auto;
-}
-
 .box_shadow {
   box-shadow: 3px 3px 15px 2px rgba(0,0,0,52)
 }
 .border_radius {
-  border-radius: column; 
-  margin-left: auto;
+  border-radius: 8px; 
+}
+
+.flex_column {
+  flex-direction:column;
+  margin-left: 0; 
 }
 
 /*----Definir as background-colors ----*/
@@ -401,7 +400,7 @@ h3{
 /*----articles - estilo de card ----*/
 .container article:first-child {
   border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-left-right-radius: 8px;
 }
 .container article:last-child {
   border-top-right-radius: 8px;
@@ -432,4 +431,22 @@ h3{
   background-color: inherit;
   outline: 2px solid var(--white-color);
   color: var(--white-color);
+}
+
+@media screen and (max-width:992px) {
+  .container .flex{
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 90%;
+  }
+  .container article::first-child {
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .container article:last-child {
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
 }
