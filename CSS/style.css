@@ -231,7 +231,7 @@ h3{
   color: #000000;
 }
 
-.nav__Action {
+.navAction {
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -294,7 +294,9 @@ h3{
   .nav__menu::-webkit-scrollbar {
     width: 0;
   }
-
+  .navAction{
+    width:100%;
+  }
   .nav__list {
     padding-top: 1rem;
   }
@@ -371,6 +373,7 @@ h3{
 }
 .flex {
  display: flex;
+ align-items: stretch;
  gap: var(--gap, 1rem);
 }
 
@@ -383,7 +386,7 @@ h3{
 
 .flex_column {
   flex-direction:column;
-  margin-left: 0; 
+  margin: 0; 
 }
 
 /*----Definir as background-colors ----*/
@@ -400,7 +403,7 @@ h3{
 /*----articles - estilo de card ----*/
 .container article:first-child {
   border-top-left-radius: 8px;
-  border-left-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 .container article:last-child {
   border-top-right-radius: 8px;
@@ -439,7 +442,7 @@ h3{
     max-width: 100%;
     min-width: 90%;
   }
-  .container article::first-child {
+  .container article:first-child {
     border-radius: 0;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
