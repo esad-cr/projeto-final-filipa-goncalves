@@ -428,6 +428,8 @@ h3{
   margin: auto;
   margin-top: 3em;
   transition: background-color 200ms ease-in-out;
+  background-color: var(--white-color); /* fundo branco e cor preta */
+  color: var(--black-color); 
 }
 
 .learn-more-button:hover {
