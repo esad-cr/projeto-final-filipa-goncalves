@@ -598,3 +598,8 @@ h3{
         font-size: 1.5rem;
     }
 }
+
+/*----mudar a cor de fundo da página contactos----*/
+body:has(#contactos) {
+  background-color: var(--primary-color);
+}
