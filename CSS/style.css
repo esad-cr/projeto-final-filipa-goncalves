@@ -503,7 +503,7 @@ h3{
     padding: 2rem;
 }
 
-/* ===== CARD SERVIÇOS ===== */
+/* ---- CARD SERVIÇOS ---- */
 #servicos {
     flex: 1;
     padding: 0;
@@ -545,5 +545,51 @@ h3{
     #mainContent {
         flex-direction: column;
         margin-top: 0%;
+    }
+}
+
+/*----página Contactos----*/
+#contactos {
+    padding-top: 6rem;
+}
+
+.contactos-card {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contactos-card h2 {
+    font-size: 4rem;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.contacto-item i {                          /*----cor icon----*/
+    font-size: 1.5rem;
+    color: var(--body-color);
+}
+
+.contacto-item a {                         /*----cor email----*/
+    color: var(--body-color);
+    text-decoration: underline;
+}
+
+.contacto-item a:hover {                   /*----cor email muda----*/
+    color: var(--secondary-color);
+}
+
+@media screen and (max-width: 992px) {              /*----mobile----*/
+    .contactos-card {
+        padding: 2rem;
+    }
+    .contactos-card h2 {
+        font-size: 1.5rem;
     }
 }
