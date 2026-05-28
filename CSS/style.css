@@ -493,3 +493,55 @@ h3{
     font-size: 1.5rem;
   }
 }
+
+/* ---- por os 2 cards perfil e serviços lado a lado ---- */
+#mainContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* ===== CARD SERVIÇOS ===== */
+#servicos {
+    flex: 1;
+    padding: 0;
+}
+
+#perfil {
+    flex: 1;
+    padding: 0;
+}
+
+.servicos-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem;
+    height: 100%;
+}
+
+.servico-bloco {
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.servico-bloco h3 {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    margin-bottom: 0.5rem;
+}
+
+.servico-bloco p {
+    color: var(--white-color);
+    font-size: 1rem;
+}
+
+/* Mobile - 1 em baixo do outro */
+@media screen and (max-width: 992px) {
+    #mainContent {
+        flex-direction: column;
+    }
+}
