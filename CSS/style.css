@@ -475,7 +475,7 @@ h3{
   .perfil-card {
     flex-direction: column;  /* foto em cima, texto em baixo */
     align-items: center;
-    margin: 5rem 1rem 2rem;
+    margin: 5rem 1rem 0rem;
     padding: 2rem;
   }
 
@@ -544,5 +544,6 @@ h3{
 @media screen and (max-width: 992px) {
     #mainContent {
         flex-direction: column;
+        margin-top: 0%;
     }
 }
