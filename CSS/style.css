@@ -455,3 +455,41 @@ h3{
     border-bottom-right-radius: 8px;
   }
 }
+
+/*----página sobre-mim----*/
+.perfil-card {
+  display:flex;
+  flex-direction: row;        /* foto e texto lado a lado */
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 3rem;
+  background-color: var(--primary-color);
+  max-width: 900px;          
+  margin: 6rem 2rem 3rem; /* card lado esquerdo*/
+}
+#perfil h2 {                    /* Correção título */
+  font-size: 2rem;
+}
+/*tamanho mobile*/
+@media screen and (max-width: 992px) {
+  .perfil-card {
+    flex-direction: column;  /* foto em cima, texto em baixo */
+    align-items: center;
+    margin: 5rem 1rem 2rem;
+    padding: 2rem;
+  }
+
+  .foto-perfil {      /*tamanho*/
+    width: 150px;
+    height: 150px;
+  }
+
+  .perfil-texto {
+    align-items: center;
+    text-align: center;
+  }
+
+  #perfil h2 {           /* Diminuir o tamanho do título */
+    font-size: 1.5rem;
+  }
+}
