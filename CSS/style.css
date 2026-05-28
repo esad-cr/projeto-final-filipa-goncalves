@@ -605,3 +605,47 @@ body:has(#contactos) {
 }
 
 /*----página projetos----*/
+#projetos {
+  padding-top: 6rem;
+}
+
+.projetos-grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*----dividido igualmente----colunas----*/
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.projetos-card { 
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--third-color);
+}
+
+.projetos-card img                                /*---tamanho img e video---*/
+.projetos-card video { 
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.projeto-info { 
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projeto-info h3 { 
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/*----mobile----*/
+@media screen and (max-width: 992px) {       
+    .projetos-grid {     
+      grid-template-columns: 1fr;
+    }
+}
