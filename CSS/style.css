@@ -386,7 +386,8 @@ h3{
 
 .flex_column {
   flex-direction:column;
-  margin: 0; 
+  margin: 0;
+  width: 33.33%;
 }
 
 /*----Definir as background-colors ----*/
@@ -442,8 +443,10 @@ h3{
   .container .flex{
     flex-direction: column;
     max-width: 100%;
+    width: 100%;
     min-width: 90%;
   }
+
   .container article:first-child {
     border-radius: 0;
     border-top-left-radius: 8px;
