@@ -470,7 +470,7 @@ h3{
   max-width: 900px;          
   margin: 6rem 2rem 3rem; /* card lado esquerdo*/
 }
-#perfil h1 {                    /* Correção título */
+#perfil h2 {                    /* Correção título */
   font-size: 1.5rem;
 }
 /*tamanho mobile*/
