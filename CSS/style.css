@@ -175,16 +175,16 @@ h3{
 @media (min-width: 992px) {
   /****portfólioFilipa****/
   h1{
-  font-size: 7.993rem;
+  font-size: 5rem;
   }
   /****sobremim,contactosetc****/
   h2{
-  font-size: 5.653rem;
+  font-size: 3.5rem;
   margin-bottom: 3rem;/****margem de titulo e imagens****/
   }
   /****subtitulo dentro das secçoes****/
   h3{
-  font-size: 3.998rem;
+  font-size: 3rem;
   }
 }
 
@@ -470,7 +470,7 @@ h3{
   max-width: 900px;          
   margin: 6rem 2rem 3rem; /* card lado esquerdo*/
 }
-#perfil h2 {                    /* Correção título */
+#perfil h1 {                    /* Correção título */
   font-size: 1.5rem;
 }
 /*tamanho mobile*/
