@@ -302,7 +302,7 @@ h3{
   }
 }
 .nav__link {
-    color: var(--secondary-color);
+    color: var(--third-color);
     background-color: var(--white-color);
     font-weight: var(--font-semi-bold);
     padding: 1.25rem 1.5rem;
