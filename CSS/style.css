@@ -428,7 +428,7 @@ h3{
   padding-block: 0.79em;
   padding-inline: 2.3em;
   margin: auto;
-  margin-top: 6em;
+  margin-top: 3em;
   transition: background-color 200ms ease-in-out;
   background-color: var(--white-color); /* fundo branco e cor preta */
   color: var(--black-color); 
