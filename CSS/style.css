@@ -470,7 +470,11 @@ h3{
   background-color: var(--primary-color);
   max-width: 900px;          
   margin: 6rem 2rem 3rem; /* card lado esquerdo*/
+  min-height: 400px;
 }
+.perfil-texto .learn-more-button {
+    margin-top: 6em; 
+  }
 #perfil h2 {                    /* Correção título */
   font-size: 1.5rem;
 }
@@ -481,6 +485,7 @@ h3{
     align-items: center;
     margin: 5rem 1rem 0rem;
     padding: 2rem;
+    min-height: 500px;
   }
 
   .foto-perfil {      /*tamanho*/
