@@ -472,9 +472,15 @@ h3{
   margin: 6rem 2rem 3rem; /* card lado esquerdo*/
   min-height: 400px;
 }
+.perfil-texto {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+}
 .perfil-texto .learn-more-button {
-    margin-top: 6em; 
-  }
+    margin-top: 3rem; 
+}
 #perfil h2 {                    /* Correção título */
   font-size: 1.5rem;
 }
