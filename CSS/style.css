@@ -420,9 +420,6 @@ h3{
 .container article > img {
   width:4rem; 
 }
-.container article h3 {
-  font-size: 1.5rem;
-}
 /*----botões----*/
 .learn-more-button {
   border: none;
@@ -464,6 +461,12 @@ h3{
 }
 
 /*----página sobre-mim----*/
+
+#sobre-mim-titulo {
+  text-align: center;
+  padding-top: 5rem;
+  margin-bottom: 0;
+}
 .perfil-card {
   display:flex;
   flex-direction: row;        /* foto e texto lado a lado */
@@ -492,10 +495,17 @@ h3{
   .perfil-card {
     flex-direction: column;  /* foto em cima, texto em baixo */
     align-items: center;
-    margin: 5rem 1rem 0rem;
+    margin: 1rem 1rem 0rem;
     padding: 2rem;
     min-height: 500px;
   }
+  #sobre-mim-content {
+      padding-top: 0rem; 
+  }
+  #sobre-mim-titulo {
+      padding-top: 5rem; 
+  }
+    
 
   .foto-perfil {      /*tamanho*/
     width: 150px;
@@ -519,6 +529,9 @@ h3{
     align-items: flex-start;
     gap: 2rem;
     padding: 2rem;
+}
+.sobre-mim-content {
+  margin-top: -5rem;
 }
 
 /* ---- CARD SERVIÇOS ---- */
