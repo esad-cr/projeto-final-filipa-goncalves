@@ -299,7 +299,7 @@ h3{
     width:100%;
   }
   .nav__list {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
 }
 .nav__link {
