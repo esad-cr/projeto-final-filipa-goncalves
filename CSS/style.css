@@ -389,6 +389,7 @@ h3{
   flex-direction:column;
   margin: 0;
   width: 33.33%;
+  justify-content: space-between;
 }
 
 /*----Definir as background-colors ----*/
@@ -419,7 +420,9 @@ h3{
 .container article > img {
   width:4rem; 
 }
-
+.container article h3 {
+  font-size: 1.5rem;
+}
 /*----botões----*/
 .learn-more-button {
   border: none;
