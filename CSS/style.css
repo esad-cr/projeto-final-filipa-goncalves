@@ -647,6 +647,7 @@ body:has(#contactos) {
   background-color: var(--third-color);
   background-blend-mode: color;
   background-repeat: repeat;
+  text-align: center;
 }
 
 .card__container {
@@ -657,7 +658,7 @@ body:has(#contactos) {
 
 }
 
-.card__article {
+.card__article {                        /*---card azul escuro---*/
   position: relative;
   background-color: var(--primary-color);
   border: 2px solid var(--black-color-lighten);
