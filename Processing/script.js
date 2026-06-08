@@ -9,7 +9,9 @@ let tempoPausa = 0;
 let corEstado = "#000000";  
 
 function setup() {
-  createCanvas(450, 450);
+  var myCanvas = createCanvas(450, 450);
+  myCanvas.parent("pjCanvas");
+  //createCanvas(450, 450);
   background(255);
   noStroke();
   textFont("Arial");
