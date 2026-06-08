@@ -652,7 +652,7 @@ body:has(#contactos) {
 
 .card__container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 348px));
+  grid-template-columns: repeat(2, 1fr);
   justify-content: left;
   gap: 2rem;
 
