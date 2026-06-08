@@ -644,7 +644,7 @@ body:has(#contactos) {
   flex-direction: column;
   padding: 5rem;
   background-image: url("../imagens/cards/watercolor.webp"); 
-  background-color: rgba(19, 14, 2, .95);
+  background-color: var(--third-color);
   background-blend-mode: color;
   background-repeat: repeat;
 }
