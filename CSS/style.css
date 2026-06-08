@@ -714,4 +714,18 @@ body:has(#contactos) {
 }
 
 /*---animação da descrição---*/
+.card__description {
+  color: var(--white-color);
+  position: center;
+  bottom: 3.5rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: transform .4s, opacity .4s;
+}
 
+.card__article:hover .card__description {
+  opacity: 1;
+  transform: translateY(0);
+}
