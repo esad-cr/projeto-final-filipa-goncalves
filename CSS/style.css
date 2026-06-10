@@ -514,7 +514,7 @@ h3{
       padding-top: 0rem; 
   }
   #sobre-mim-titulo {
-      padding-top: 5rem; 
+      padding-top: 6rem; 
   }
     
 
@@ -752,3 +752,8 @@ body:has(#contactos) {
   width: 100%;
   min-height: 100vh;
 }
+@media screen and (max-width: 992px) {              /*----mobile----*/
+  #sectionHero1 {
+    padding-top: 3rem;
+    }
+ }
