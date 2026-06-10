@@ -416,7 +416,10 @@ h3{
   --gap: 2rem; 
   line-height: 1.5;
   padding: 3rem; 
+  display: flex;         
+  flex-direction: column; 
 }
+
 .container article > img {
   width:4rem; 
 }
@@ -428,7 +431,7 @@ h3{
   padding-block: 0.79em;
   padding-inline: 2.3em;
   margin: auto;
-  margin-top: 3em;
+  margin-top: 3rem;
   transition: background-color 200ms ease-in-out;
   background-color: var(--white-color); /* fundo branco e cor preta */
   color: var(--black-color); 
@@ -439,6 +442,7 @@ h3{
   outline: 2px solid var(--white-color);
   color: var(--white-color);
 }
+
 
 @media screen and (max-width:992px) {
   .container .flex{
@@ -459,6 +463,13 @@ h3{
     border-bottom-right-radius: 8px;
   }
 }
+/*---alinhar os botoes dos cards---*/
+@media screen and (min-width: 992px) {
+  .container article p {
+    min-height: 80px;
+  }
+}
+
 
 /*----página sobre-mim----*/
 
